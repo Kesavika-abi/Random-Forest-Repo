@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Attrition Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>👨‍💼 Employee Attrition Prediction</h1>
+        <p class="subtitle">Enter the employee details below to check if they are likely to leave the company.</p>
+
+        <form action="/predict" method="POST" class="form-grid">
+            <div class="form-group">
+                <label>Age:</label>
+                <input type="number" name="age" required>
+            </div>
+
+            <div class="form-group">
+                <label>Job Satisfaction (1-4):</label>
+                <input type="number" name="job_satisfaction" min="1" max="4" required>
+            </div>
+
+            <div class="form-group">
+                <label>Monthly Income (₹):</label>
+                <input type="number" name="monthly_income" required>
+            </div>
+
+            <div class="form-group">
+                <label>Years at Company:</label>
+                <input type="number" name="years_at_company" required>
+            </div>
+
+            <div class="form-group">
+                <label>Work-Life Balance (1-4):</label>
+                <input type="number" name="work_life_balance" min="1" max="4" required>
+            </div>
+
+            <div class="form-group">
+                <label>Overtime:</label>
+                <select name="overtime" required>
+                    <option value="">-- Select --</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">🔍 Predict</button>
+        </form>
+    </div>
+</body>
+</html>

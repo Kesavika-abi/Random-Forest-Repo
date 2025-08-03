@@ -1,0 +1,11 @@
+﻿Age,JobSatisfaction,MonthlyIncome,YearsAtCompany,WorkLifeBalance,OverTime,Attrition
+35,4,50000,5,3,Yes,No
+28,3,32000,2,2,No,Yes
+45,2,75000,10,4,No,No
+30,3,40000,3,2,Yes,Yes
+50,4,90000,15,3,No,No
+27,2,30000,1,2,Yes,Yes
+38,3,65000,8,3,No,No
+41,4,70000,12,4,No,No
+29,1,28000,2,1,Yes,Yes
+36,3,55000,6,3,No,No
