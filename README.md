@@ -64,7 +64,8 @@ python app.py
 Open your browser and go to:
 
 http://127.0.0.1:5000/
-###  Screenshots
+
+##  Screenshots
 
 ###  Input Form
 ![Input Form](screenshot/input.png)
@@ -74,16 +75,18 @@ http://127.0.0.1:5000/
 
 
 ###  Use Cases
- HR departments to analyze and prevent employee turnover
 
- Data-driven decision making in workforce management
+ - HR departments to analyze and prevent employee turnover
 
- Educational projects demonstrating ML in HR analytics
+ - Data-driven decision making in workforce management
+
+ - Educational projects demonstrating ML in HR analytics
 
 ###  Future Enhancements
-Add more features like department, distance from home, education level
 
-Deploy online via Heroku, Render, or Streamlit
+ - Add more features like department, distance from home, education level
 
-Implement visual analytics dashboard
+ - Deploy online via Heroku, Render, or Streamlit
+
+ - Implement visual analytics dashboard
 
